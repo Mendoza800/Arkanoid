@@ -1,11 +1,9 @@
 #pragma once
-#include <string>
-#include <iostream>
 
 class Color
 {
 private:
-    int c;
+    /* data */
 public:
     Color(/* args */) {}
     ~Color() {}

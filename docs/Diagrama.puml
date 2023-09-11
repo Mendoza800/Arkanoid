@@ -1,4 +1,4 @@
-@startuml Arkanoid
+@startuml arkanoid
 
 class Color
 class Verde
