@@ -9,7 +9,7 @@ private:
     std::string nombre;
 
 public:
-    Mascota() 
+    Mascota()
     {
         this->vida = 100;
     }

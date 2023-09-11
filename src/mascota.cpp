@@ -3,9 +3,9 @@
 
 int main()
 {
-    std::cout<<"Juego de mascotas"<<std::endl;
+    std::cout << "Juego de mascotas" << std::endl;
 
-    Mascota m1,m2,m3;
+    Mascota m1, m2, m3;
 
     m1.EstablecerNombre("Pi");
     m2.EstablecerNombre("ti");
