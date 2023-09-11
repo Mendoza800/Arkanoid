@@ -5,7 +5,7 @@ bin/mascota : src/mascota.cpp include/Mascota.hpp
 RunMascota : bin/mascota
 	./bin/mascota
 
-bin/arkanoid : src/arkanoid.cpp 
+bin/arkanoid : src/arkanoid.cpp include/Color.hpp 
 	g++ src/arkanoid.cpp -o bin/arkanoid -I include
 
 RunArkanoid : bin/arkanoid

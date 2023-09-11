@@ -1,3 +1,61 @@
 @startuml Arkanoid
 
+class Color
+class Verde
+class Rojo
+class Blanco
+class Naranja
+class Amarillo
+class Bolita
+class Barra
+class Vida
+class Jugador
+class Borde
+class Fondo
+class Puntaje
+class Ronda
+class Pantalla
+class Bloque
+class Limite
+class Poder
+class BarraChica
+class BarraGrande
+class BolaDestructora
+class MultiBola
+class Eliminador
 
+BarraChica --|> Poder
+BarraGrande --|> Poder
+BolaDestructora --|> Poder
+MultiBola --|> Poder
+ 
+Verde --|> Color
+Rojo --|> Color
+Blanco --|> Color
+Naranja --|> Color
+Amarillo --|> Color
+
+Barra o-- Vida
+Barra o-- Bolita
+Barra *-- Borde
+Barra *-- Limite
+Barra --o Poder
+Barra *-- Eliminador
+
+Bolita *-- Borde
+Bolita *-- Limite
+Bolita --o Poder
+
+Bloque *-- Color
+Bloque *-- Eliminador
+
+Pantalla *-- Borde
+Pantalla *-- Fondo
+Pantalla *-- Puntaje
+Pantalla *-- Ronda
+Pantalla *-- Limite
+Pantalla *-- Color
+
+Jugador o-- Barra
+
+@enduml
