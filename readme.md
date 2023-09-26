@@ -10,6 +10,7 @@ A causa de la popularidad del juego, cuatro versiones se desarrollaron para el m
 La mayoría de computadores de 8 bits (ZX Spectrum, Amstrad CPC 464, Commodore 64, MSX, Atari 8-bit, Apple II…) eran muy populares en Europa en los 80. Un puerto de consola en la NES también era popular, así que el juego fue portado para computadoras de 16 bits como Commodore Amiga, Atari ST, Apple IIGS o IBM-PC. También se desarrolló una conversión para TRS-80 Color Computer en 1989.
 
 Así se veía el primer juego de arkanoid
+
 ![](/images/Juego80s.png)
 
 

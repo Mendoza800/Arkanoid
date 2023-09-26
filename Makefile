@@ -1,3 +1,5 @@
+CXX = x86_64-w64-mingw32-g++
+CXXFLAGS = -g
 
 RunArkanoid : bin/arkanoid
 	./bin/arkanoid
@@ -9,5 +11,7 @@ RunMascota : bin/mascota
 	./bin/mascota
 
 bin/mascota : src/mascota.cpp include/Mascota.hpp
-	g++ src/mascota.cpp -o bin/mascota -I include
+	$(CXX) src/mascota.cpp -o bin/mascota -I include 
 
+cleanMascota : bin/Mascota
+	rm bin/Mascota
